@@ -1,0 +1,78 @@
+$primary: #6a6a6a; 
+$bg-light: #f4f3ee;
+$navbar-light-color: #8d8d8d;                
+$navbar-light-hover-color: #6a6a6a;         
+$navbar-light-active-color: #c32c72;
+$primary-color: #6a6a6a;
+$headings-margin-bottom: 50px;
+$footer-color: #f4f3ee;
+$footer-text-color: #8d8d8d;
+$tile-color: #c32c72;
+$background-dark: rgba(0,0,0,0.5);
+$body-bg: #e5e5e5;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row{
+   justify-content: center;
+   width: 100%;
+}
+
+.col {
+    width: 264px;
+    height: 263px;
+    border: black solid 1px;
+    background-color: red;
+    margin: 10px;
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.3);
+}
+
+.w-100{
+    margin: 10px 0;
+}
+
+.radius{
+    border-radius: 15px;;
+}
+
+.one, .two, .four, .five, .seven{
+    background-color: $bg-light;
+    border: 0;
+}
+
+.three, .eight{
+    background-color: white;
+    border: solid 3px $tile-color;
+}
+
+.six{
+    background-color: #c32c72;
+    border: solid 3px white;
+}
+
+
+.one:hover, .two:hover, .four:hover, .five:hover, .seven:hover{
+    border: solid 3px blue;
+    cursor: pointer;
+}
+
+.three:hover, .eight:hover{
+    border: solid 3px #C32C72;
+}

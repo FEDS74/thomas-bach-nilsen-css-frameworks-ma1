@@ -1,0 +1,33 @@
+footer{
+    height: 44px;
+    width: 100%;
+    background-color: $bg-light;
+    position: fixed;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    color: $footer-text-color;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    a{
+        text-transform: none;
+        text-decoration: none;
+    }
+
+    a:nth-child(2){
+        float: right;
+    }
+
+
+}
+
+
+.footer-container{
+    width: 90%;;
+}
+
+
+
+

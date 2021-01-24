@@ -1,5 +1,9 @@
 
 @import "partials/custom";
+@import "partials/layout";
+@import "partials/navbar";
+@import "partials/tile";
+@import "partials/footer";
 
 
 @import "../bootstrap-scss/functions";
@@ -33,3 +37,5 @@
 @import "../bootstrap-scss/spinners";
 @import "../bootstrap-scss/helpers";
 @import "../bootstrap-scss/utilities/api";
+
+
